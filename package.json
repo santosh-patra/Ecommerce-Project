@@ -1,0 +1,18 @@
+{
+  "name": "mernproject",
+  "version": "1.0.0",
+  "description": "Ecommerce project using React,node,express and mongodb",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon backend/server.js",
+    "start":"node backend/server.js"
+  },
+  "author": "Santosh Patra",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  }
+}
